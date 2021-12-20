@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAoJF3Ok98zky97VkSJMhNigAAAAACAAAAAAAQZgAAAAEAACAAAABwfcPkm9lDwhnSWfyG9TSFIBTq98gwZAoFSPp/vrWgVQAAAAAOgAAAAAIAACAAAAAJPd0u531zFDfj3ty/qjDZuXXIdfSRGRnxm8alFNlqj4AAAABLGO76OP4rwGXWmZ3w6uyeVF3mlsxogcHQVMoQ9tMpuQNZiiiKTy2WKpR51dai9fOukpQJvlNu4tRFVtYrotl7XYk0YbSkC3LVx+/fAXwkwnhNB+JOHvCPWzAnLv7AVIcOpNXoOkT5RtyDa0G33XX5aZchO47PAmzA9celRO0tn0AAAACDVhKZLhmQTGCA5wzpVFoFVuq99kQMPv3IorMtmLUoEV76qyqLYpXDxJ0551TBVto0O/RIeFJys/SIt+BrnLOa</EncryptedPassword>
+    <History>True|2021-11-23T11:44:44.8866499Z;False|2021-11-23T01:42:34.0986212+01:00;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <EFMigrations Include="MusicApi.Data.ApiDbContext">
+      <Value>Server=tcp:musicserver.database.windows.net,1433%3bInitial Catalog=musicdb%3bPersist Security Info=False%3bUser ID=donkennie%3bPassword=donkenny160!%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
